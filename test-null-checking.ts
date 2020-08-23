@@ -7,6 +7,7 @@ if (x) {
     console.log(`simple - NO x`)
 }
 
+// https://stackoverflow.com/questions/28975896/is-there-a-way-to-check-for-both-null-and-undefined
 if (x != null) { // this is a better option that `if(x)`, if you can the if block to execute whenever x is false or empty string. ie, if you truely only want the code to NOT execute when x is undefined or null
     console.log(`check null - we have x`)
 } else {
